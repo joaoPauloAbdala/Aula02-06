@@ -23,12 +23,9 @@ header{
     align-items: center;
     background-color: #f8f6f7;
     width: 1000px;
-
-    
 }
 
 main{
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,8 +37,8 @@ h1{
 }
 
 #laranja,  #amarelo,  #verde {
-font-weight: 700;
-font-size: 1.7rem;
+    font-weight: 700;
+    font-size: 1.7rem;
 }
 
 #laranja{
@@ -63,7 +60,6 @@ nav{
 .busca__container{
     display: flex;
     background: url('../img/barcos.webp');
-    height: 300px;
     background-position: center;
     background-size: cover;
     justify-content: center;    
@@ -100,7 +96,6 @@ nav{
     width: 20%;
     height: 2rem;
     font-size: 1rem;
-    
 }
 
 .busca__inputs button{
@@ -115,16 +110,12 @@ nav{
     height: 2rem;
     font-size: 1.3rem;
     cursor: pointer;
-
 }
 
 .lista__voos{
     margin: 3rem 0;
     justify-content: center;
     width: 1000px;
-    
-        
-
 }
 
 .lista__voos h2{
@@ -138,7 +129,6 @@ nav{
     gap: 1.5rem;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 
 article{
